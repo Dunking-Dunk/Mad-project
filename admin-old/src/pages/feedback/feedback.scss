@@ -1,0 +1,17 @@
+.feedback__container {
+    margin: 15px;
+}
+
+.feedback__title {
+    margin-bottom: 20px;
+}
+
+.feedback__card {
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    border-bottom: 1px solid #EEEEEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

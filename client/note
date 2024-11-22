@@ -1,0 +1,19 @@
+// "AIzaSyB8leRFmsGDXepoQZp5cGML3pgXUcK6nGA"
+// {
+//     "cli": {
+//       "version": ">= 0.60.0"
+//     },
+//     "build": {
+//       "development": {
+//         "developmentClient": true,
+//         "distribution": "internal"
+//       },
+//       "preview": {
+//         "android": {
+//           "buildType": "apk"
+//         }
+//       },
+//     "production": {}
+//   }
+    
+//   }

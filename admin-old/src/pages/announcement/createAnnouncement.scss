@@ -1,0 +1,24 @@
+.newAnnouncement__container {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+    .newAnnouncement__title {
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+
+    .newAnnouncement__postBtn {
+        width: 120px;
+        height: 40px;
+        outline: none;
+        border-radius: 10px;
+        background-color: white;
+        cursor: pointer;
+        align-self: center;
+    }
+    .newAnnouncement__editor {
+        height: 500px;
+    }
+}
+

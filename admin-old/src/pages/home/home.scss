@@ -1,0 +1,30 @@
+.homeContainer {
+  flex: 6;
+  padding: 15px;
+
+  .listContainer {
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+    padding: 20px;
+    margin: 20px;
+
+    .listTitle {
+      font-weight: 500;
+      color: gray;
+      margin-bottom: 15px;
+    }
+  }
+  .home__subContianer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0px 20px 0px;
+    .quickStats__container{
+      width: 400px
+    }
+
+
+  }
+}
+

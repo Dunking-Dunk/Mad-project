@@ -1,0 +1,19 @@
+.busview__container {
+    padding: 15px;
+}
+
+.busview__container__title {
+    margin-bottom: 25px;
+}
+
+.busView__detail__container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-bottom: 1px solid #EEEEEE;
+    text-transform: capitalize;
+    h4 {
+        color: #18122B;
+    }
+
+}

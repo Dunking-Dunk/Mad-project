@@ -1,0 +1,35 @@
+.datatableTitle{
+  width: 100%;
+  font-size: 24px;
+  color: gray;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.link{
+  text-decoration: none;
+  color: green;
+  font-size: 16px;
+  font-weight: 400;
+  border: 1px solid green;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.updateButton {
+  cursor: pointer;
+  border: 1px dotted blue;
+  padding: 4px;
+  border-radius: 5px;
+  text-transform: capitalize;
+}
+
+.quickEdit__container {
+  margin: 25px 0px;
+  h1 {
+    margin-bottom: 10px;
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "REC Bus",
+    "slug": "rec-bus",
+    "version": "1.0.0",
+    "currentFullName": "@hursun/rec-bus",
+    "originalFullName": "@hursun/rec-bus",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "home",
+    "splash": {
+      "image": "./assets/rec-icon-3.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FA00FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/b248ef96-127b-4a85-b85a-db14e56c7b03"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.rec.recBus",
+      "permissions": ["CAMERA", "ACCESS_FINE_LOCATION","FOREGROUND_SERVICE", "READ_PHONE_STATE" ],
+      "config": {
+        "googleMaps": { 
+          "apiKey": "AIzaSyAaCWjzUJ1XziqSuWycOTNorOmfe2swDIc" 
+        }
+      }
+     
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "be1bf7f6-9a81-4295-8a29-c6fe2fee3171"
+      }
+    },
+    "owner": "hursun",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
