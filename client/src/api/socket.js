@@ -11,7 +11,7 @@ import {
 
 class Socket {
   constructor() {
-    this.url = "http://192.168.31.81:4000";
+    this.url = "http://192.168.118.114:4000";
     this.config = {
       reconnection: true,
       reconnectionDelay: 1000,

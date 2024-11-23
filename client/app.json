@@ -37,11 +37,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "extra": {
-      "eas": {
-        "projectId": "be1bf7f6-9a81-4295-8a29-c6fe2fee3171"
-      }
-    },
     "owner": "hursun",
     "runtimeVersion": {
       "policy": "sdkVersion"
